@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Clínica Oliveira</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="Página principal.html">Página Principal</a></li>
+                <li><a href="Sobre a clínica.html">Sobre a Clínica</a></li>
+                <li><a href="Horário de Atendimento.html">Horário de Atendimento</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img width="1000" height="250" src="https://rafaelshama.com.br/wp-content/uploads/2020/05/Clinica-Medica.jpg"
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                Entre já em contato e agende sua consulta com um de nossos especialistas:<br>
+                <!-Telefone-> Telefone: (11) 1234-5678<br>
+                <!-Whatsapp-> Whatsapp: (11)91234-5678<br>
+                <!-Endereço-> Av. Fábio Eduardo Ramos Esquível, 2421 - Jardim Concordia, Diadema - SP, 09941-201<br>
+                <br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14615.254628753934!2d-46.6028099!3d-23.682621!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x97e1befcbfea261!2sCentro%20Cl%C3%ADnico%20Diadema%20-%20Unidade%20dedicada%20ao%20tratamento%20de%20S%C3%ADndromes%20Gripais!5e0!3m2!1spt-BR!2sbr!4v1668971998698!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+                <br>
+            <form>
+                Preencha seus dados para contato:<br>
+                <label>Nome: </label><input type="text" name="Name"><br>
+                <label>E-mail: </label><input type="e-mail" name="e-mail"><br>
+                <label>Assunto: </label><input type="text" name="subject"><br>
+                <label>Mensagem:</label><br>
+                <textarea rows="10" cols="50" name="Message"></textarea><br>
+                <Button type="submit" onclick="alert('Formulário enviado! Entraremos em contato em breve')">Enviar</Button><Button type="reset">Limpar Formulário</Button>
+            </form>
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer">
+                Acesse as nossas redes sociais: 
+                <!-Facebook-><a class="Redes Sociais" target="blank" href="https://pt-br.facebook.com/"><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png"></a>
+                <!-Instagram-><a class="Redes Sociais" target="blank" href="https://www.instagram.com/"><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/640px-Instagram_icon.png"></a>
+                <!-LinkedIn-><a class="Redes Sociais" target="blank" href="https://br.linkedin.com/"><img width="50" src="data:image/png;base64,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"></a><br>
+                Entre em contato:<br>
+                <!-Telefone->Telefone: (11)1234-5678<br>
+                <!-Whatsapp->Whatsapp: (11)91234-5678<br>
+                <!-E-mail->E-mail: contato@clinicaoliveira.com<br>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
