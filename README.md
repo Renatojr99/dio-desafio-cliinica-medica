@@ -1,2 +1,2 @@
 # dio-desafio-cliinica-medica
-O projeto consiste em desenvolver um website para apresentação de uma clínica médica utilizando apenas HTML para gerar links de acesso, conexão com mídias e outras ferramentas desenvolvidas no curso de Introdução ao HTML.
+The project consists of developing a website to present a medical clinic using only HTML to generate access links, connection with media and other tools developed in the Introduction to HTML course.
